@@ -1,0 +1,63 @@
+/* Reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+*::after,
+*::before {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+* {
+    font-family: Georgia, serif;
+    color: #252525;
+}
+
+
+/* header */
+
+.menu {
+    background: #252525;
+    padding: 20px 0;
+}
+
+.menu__container {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+a.menu__logo {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+.menu__nav {
+    float: right;
+}
+
+.menu__nav li {
+    display: inline-block;
+}
+
+.menu__nav a {
+    display: block;
+    padding: 0.625em;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.125em;
+    margin: 10px;
+}
+
+
+/* Mains */
+
+.intro {
+    background: url('../img/Brafe1/img/bg-intro.jpg') no-repeat center center;
+    background-size: cover;
+}
