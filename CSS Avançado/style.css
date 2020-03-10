@@ -55,7 +55,7 @@ a.menu__logo {
 }
 
 
-/* Mains */
+/* Mais */
 
 .intro {
     background: url('../img/Brafe1/img/bg-intro.jpg') no-repeat center center;
@@ -82,4 +82,47 @@ a.menu__logo {
 .intro p {
     font-style: italic;
     font-size: 1.125em;
+}
+
+
+/* INFOS */
+
+.sobre {
+    padding: 60px 0;
+}
+
+.sobre__container {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre__item {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.sobre__item img {
+    display: block;
+    max-width: 100%;
+}
+
+.sobre__item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background: black;
+    width: 220px;
+    color: floralwhite;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    margin: -25px;
+    position: relative;
 }
