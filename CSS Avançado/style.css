@@ -123,6 +123,105 @@ a.menu__logo {
     font-weight: normal;
     text-align: center;
     padding: 5px 0 10px 0;
-    margin: -25px;
+    margin: -25px 0;
     position: relative;
+}
+
+.sobre>p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 70px auto 20px auto;
+    max-width: 460px;
+}
+
+
+/* Produtos */
+
+.produtos {
+    padding: 60px;
+    background: #e7e4d8;
+    border-top: 3px solid #d6d3c8;
+    border-bottom: 3px solid #d6d3c8;
+}
+
+.produtos__container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.produtos__item {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 10px;
+}
+
+.produtos__item h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.produtos__item h2::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: currentColor;
+    margin: 20px auto;
+    border: 5px solid #e7e4d8;
+    box-shadow: 0 0 0 5px currentColor;
+}
+
+h2.produtos__paulista::before {
+    color: #492901;
+}
+
+h2.produtos__carioca::before {
+    color: #c17139;
+}
+
+h2.produtos__mineiro::before {
+    color: #d7a54d;
+}
+
+.produtos__item p {
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+
+a.produtos__btn {
+    border: 3px solid;
+    color: #252525;
+    text-decoration: none;
+    display: block;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    margin: 350px auto 0 auto;
+    width: 180px;
+    height: 20px;
+}
+
+.locais {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.locais__item img {
+    width: 460px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+
+.locais__item div {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
 }
